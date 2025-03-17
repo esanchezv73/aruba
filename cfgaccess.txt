@@ -12,7 +12,12 @@ ipv6 route 2001:db8::/64 2001:db8:20::1
 dhcpv6-relay
 interface 1/1/1
 no routing
-vlan trunk allowed 20,30
+vlan trunk allowed 20
+no shutdown
+exit
+interface 1/1/10
+no routing
+vlan trunk allowed 30
 no shutdown
 exit
 interface 1/1/2
