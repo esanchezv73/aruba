@@ -30,6 +30,11 @@ no ipv6 nd suppress-ra
 exit
 interface 1/1/1
 no routing
-vlan trunk allowed 20,30
+vlan trunk allowed 20
+no shutdown
+exit
+interface 1/1/2
+no routing
+vlan trunk allowed 30
 no shutdown
 exit
