@@ -22,12 +22,12 @@ no shutdown
 exit
 interface 1/1/2
 no routing
-vlan access 20
+vlan access 30
 no shutdown
 exit
 interface 1/1/3
 no routing
-vlan access 20
+vlan access 30
 no shutdown
 exit
 interface 1/1/4
