@@ -112,8 +112,6 @@ topology:
       
   links:
     
-    - endpoints: ["arubacore:eth2","arubaaccess:eth10"]
-      mtu: 1500
     - endpoints: ["arubacore:eth1","arubaaccess:eth1"]
       mtu: 1500
     - endpoints: ["arubaaccess:eth2","PC1:eth1"]
