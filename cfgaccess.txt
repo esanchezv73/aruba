@@ -1,6 +1,5 @@
 conf t
 nd-snooping enable
-port-access port-security enable
 vlan 30
 nd-snooping
 exit
@@ -16,7 +15,5 @@ exit
 interface 1/1/2-1/1/5
 no routing
 vlan access 30
-port-access port-security enable
-ipv6 source-lockdown
 no shutdown
 exit
