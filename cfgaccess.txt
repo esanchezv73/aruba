@@ -4,7 +4,6 @@ exit
 interface 1/1/1
 no routing
 vlan trunk native 20
-nd-snooping trust
 no shutdown
 exit
 interface 1/1/2-1/1/5
