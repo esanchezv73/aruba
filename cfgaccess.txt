@@ -1,9 +1,12 @@
 conf t
+nd-snooping enable
 vlan 20
+nd-snooping
 exit
 interface 1/1/1
 no routing
 vlan trunk native 20
+nd-snooping trust
 no shutdown
 exit
 interface 1/1/2-1/1/5
