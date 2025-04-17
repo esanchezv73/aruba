@@ -1,7 +1,9 @@
 conf t
 nd-snooping enable
+dhcpv6-snooping
 vlan 20
 nd-snooping
+dhcpv6-snooping ip-binding-enable
 exit
 interface vlan 20
 ipv6 address 2001:db8:20::2/64
