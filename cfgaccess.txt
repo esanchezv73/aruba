@@ -4,7 +4,7 @@ dhcpv6-snooping
 dhcpv6-snooping authorized-server fe80::20
 vlan 20
 nd-snooping
-dhcpv6-snooping ip-binding-enable
+dhcpv6-snooping
 exit
 interface vlan 20
 ipv6 address 2001:db8:20::2/64
