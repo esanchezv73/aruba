@@ -5,7 +5,7 @@ nd-snooping
 exit
 interface 1/1/1
 no routing
-vlan trunk native 20
+vlan trunk allowed 20
 nd-snooping trust
 no shutdown
 exit
