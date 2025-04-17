@@ -1,6 +1,7 @@
 conf t
 nd-snooping enable
 dhcpv6-snooping
+dhcpv6-snooping authorized-server fe80::20
 vlan 20
 nd-snooping
 dhcpv6-snooping ip-binding-enable
